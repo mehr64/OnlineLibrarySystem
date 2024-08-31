@@ -1,5 +1,5 @@
 
-package model;
+package com.example.onlinelibrarysystem.model;
 
 import java.util.List;
 import java.util.stream.Collectors;

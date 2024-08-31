@@ -1,4 +1,4 @@
-package model;
+package com.example.onlinelibrarysystem.model;
 
 import exceptions.BookNotAvailableException;
 import java.util.*;
