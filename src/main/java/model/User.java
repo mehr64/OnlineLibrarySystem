@@ -4,6 +4,7 @@ public class User {
     private String name;
     private String email;
     private String password;
+    private int priority;
 
     public User(String name, String email, String password) {
         this.name = name;
@@ -19,5 +20,12 @@ public class User {
 
     public String getPassword() { return password; }
     public void setPassword(String password) { this.password = password; }
+
+    public int getPriority() {
+        return priority;
+    }
+    public void setPriority(int priority) {
+        this.priority = priority;
+    }
 }
 
